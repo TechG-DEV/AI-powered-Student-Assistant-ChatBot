@@ -1,0 +1,4 @@
+.env/
+.gradio/
+.vscode/
+t5-large-lora-final/
