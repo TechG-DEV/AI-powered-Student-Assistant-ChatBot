@@ -33,7 +33,7 @@ A **separate dataset for RAG** is used during inference:
 
 ### 4. Evaluation
 
-Generated answers are compared with reference answers using the **ROUGE** metric (implemented with `rouge_score`). ROUGE measures lexical overlap, providing a reproducible way to assess how closely the generated text matches expected responses. It is useful for comparing outputs during development, although it does not by itself measure factual correctness or semantic quality.
+Generated answers are compared with reference answers using the **ROUGE** metric (implemented with `rouge_score`). ROUGE measures lexical overlap, providing a reproducible way to assess how closely the generated text matches expected responses. It is useful for comparing outputs during development, although it does not by itself measure factual correctness or semantic quality. For that purpose BERTscore was used to evaluate contextual semantic similarity.
 
 ## Technologies and Libraries
 
